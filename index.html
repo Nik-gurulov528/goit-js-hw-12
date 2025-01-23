@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" crossorigin src="/goit-js-hw-12/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-BG8zX51N.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/vendor-DumFYO8Z.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-mdWhyS7F.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="alignParams">
+        <form class="mainForm">
+          <input
+            class="searchInput"
+            type="text"
+            placeholder="Search images..."
+          />
+          <button class="submitBtn" type="submit">Search</button>
+        </form>
+
+        <ul class="gallery"></ul>
+
+        <button type="button" class="btnLoadMore visually-hidden">
+          Load more
+        </button>
+
+        <div class="align-loader">
+          <span class="loader visually-hidden"></span>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
