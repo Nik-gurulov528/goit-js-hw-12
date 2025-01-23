@@ -15,18 +15,28 @@
   </head>
   <body>
     <div class="container">
-      <form class="mainForm">
-        <input class="searchInput" type="text" placeholder="Search images..." />
-        <button class="submitBtn" type="submit">Search</button>
-      </form>
-      <div class="align-loader">
-        <span class="loader visually-hidden"></span>
+      <div class="alignParams">
+        <form class="mainForm">
+          <input
+            class="searchInput"
+            type="text"
+            placeholder="Search images..."
+          />
+          <button class="submitBtn" type="submit">Search</button>
+        </form>
+
+        <ul class="gallery"></ul>
+
+        <button type="button" class="btnLoadMore visually-hidden">
+          Load more
+        </button>
+
+        <div class="align-loader">
+          <span class="loader visually-hidden"></span>
+        </div>
+
+        <script type="module" src="./main.js"></script>
       </div>
-      <!-- <p class="loadingText visually-hidden">Loading images, please wait...</p> -->
-
-      <ul class="gallery"></ul>
-
-      <script type="module" src="./main.js"></script>
     </div>
   </body>
 </html>

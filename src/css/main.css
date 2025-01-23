@@ -1,3 +1,10 @@
+.alignParams {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .mainForm {
   margin-top: 36px;
   margin-bottom: 32px;
@@ -43,15 +50,6 @@
 .submitBtn:hover,
 .submitBtn:focus {
   background: #6c8cff;
-}
-
-.loadingText {
-  text-align: center;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
 }
 
 .visually-hidden {
@@ -150,4 +148,30 @@ p > span {
   100% {
     transform: rotate(-360deg);
   }
+}
+
+.btnLoadMore {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
+  background: #4e75ff;
+  border-color: transparent;
+  margin-top: 32px;
+  margin-bottom: 44px;
+}
+
+.btnLoadMore:hover,
+.btnLoadMore:focus {
+  background: #6c8cff;
 }

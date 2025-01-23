@@ -16,8 +16,7 @@ export const errorMessage = (gallery, iziToast) => {
   });
 };
 
-export const dataToImages = (array, gallery) => {
-  const { hits } = array;
+export const dataToImages = (hits, gallery) => {
   const arrayOfTags = hits
     .map(
       objectOfImg => `<li class="elementOfGallery">
@@ -38,5 +37,5 @@ export const dataToImages = (array, gallery) => {
           </li>`
     )
     .join('');
-  gallery.innerHTML = arrayOfTags;
+  gallery.insertAdjacentHTML('beforeend', arrayOfTags);
 };
