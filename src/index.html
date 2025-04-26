@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Phoro-archive</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -16,14 +16,16 @@
   <body>
     <div class="container">
       <div class="alignParams">
-        <form class="mainForm">
-          <input
-            class="searchInput"
-            type="text"
-            placeholder="Search images..."
-          />
-          <button class="submitBtn" type="submit">Search</button>
-        </form>
+        <div class="fixedForm">
+          <form class="mainForm">
+            <input
+              class="searchInput"
+              type="text"
+              placeholder="Search images..."
+            />
+            <button class="submitBtn" type="submit">Search</button>
+          </form>
+        </div>
 
         <ul class="gallery"></ul>
 

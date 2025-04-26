@@ -93,7 +93,6 @@ btnAsker.addEventListener('click', event => {
 
   cardOfGallery = document.querySelector('.elementOfGallery');
   heightOfCard = 3 * cardOfGallery.getBoundingClientRect().height;
-  console.log(heightOfCard);
 
   btnAsker.classList.add('visually-hidden');
   loadingProgress.classList.remove('visually-hidden');
